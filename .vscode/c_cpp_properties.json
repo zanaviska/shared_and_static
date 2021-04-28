@@ -17,7 +17,8 @@
                 "${workspaceFolder}/**"
             ],
             "defines": [],
-            "compilerPath": "/usr/bin/g++"
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17"
         }
     ],
     "version": 4
