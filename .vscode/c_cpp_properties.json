@@ -12,7 +12,10 @@
             "intelliSenseMode": "windows-gcc-x64"
         },
         {
-            "name": "Linux"
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
         }
     ],
     "version": 4
