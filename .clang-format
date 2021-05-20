@@ -12,4 +12,4 @@ IndentCaseLabels: false
 ColumnLimit: 100
 BreakConstructorInitializers: AfterColon
 ConstructorInitializerAllOnOneLineOrOnePerLine: true
-IndentAccessModifiers: false
+AccessModifierOffset: -4
