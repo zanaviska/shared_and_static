@@ -12,6 +12,6 @@ using namespace std::chrono;
 
 int main()
 {
-    my_class::var.func();
-    dynamic_func();
+    static_usage();
+    // dynamic_func();
 }

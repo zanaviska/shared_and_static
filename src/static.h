@@ -1,10 +1,11 @@
 #pragma once
 
+void static_usage();
+
 class my_class
 {
-    inline static int a = 19;
-    inline static int b = 20;
-
+    static const int a = 19;
+    int b;
 public:
     my_class();
     ~my_class();
