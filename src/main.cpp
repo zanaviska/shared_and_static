@@ -13,5 +13,5 @@ using namespace std::chrono;
 int main()
 {
     static_usage();
-    // dynamic_func();
+    dynamic_func();
 }
