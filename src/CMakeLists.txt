@@ -6,6 +6,11 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/lib)
 
+if(WIN32)
+else(WIN32)
+    ADD_DEFINITIONS(-fPIC)
+endif(WIN32)
+
 add_library(static STATIC static.cpp)
 add_library(dynamic SHARED dynamic.cpp)
 
