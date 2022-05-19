@@ -1,4 +1,12 @@
-# defaults
-repo with defaults settings for IDEs and hello-worlds
+# example
 
-http://winlibs.com/
+to run
+```
+mkdir build
+cd build
+cmake ..
+cmake --build .
+../bin/project
+```
+
+But on my machine, linux failed to compile
